@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link ke CSS -->
+</head>
+<body>
+
+<header>
+    <div class="logo">Farmers Community</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="#" class="signup-btn">Sign Up</a></li> <!-- Tombol Sign Up -->
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="widget">
+        <h2>Post Something</h2>
+        <form id="post-form">
+            <label for="post-content">Your Post:</label>
+            <input type="text" id="post-content" required>
+            <button type="submit">Post</button> <!-- Tombol untuk mengirim postingan -->
+        </form>
+    </div>
+
+    <div class="widget community-posts" id="posts">
+        <h2>Community Posts</h2>
+        <p>No posts yet.</p> <!-- Pesan jika tidak ada postingan -->
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 Farmers Community. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script> <!-- Link ke JavaScript -->
+</body>
+</html>
